@@ -53,7 +53,7 @@ namespace PracticePrograms
             l.FindLagestNumber();
             Console.WriteLine("-------------------------------------");
             EvenOddNoInArray e1= new EvenOddNoInArray();
-            e.EvenOddNo();
+            e1.EvenOddNo();
 
             Console.WriteLine("-----------------------------------------");
             SortAnArrayAnFindDuplicate s2 = new SortAnArrayAnFindDuplicate();
