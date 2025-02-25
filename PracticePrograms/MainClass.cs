@@ -58,6 +58,12 @@ namespace PracticePrograms
             Console.WriteLine("-----------------------------------------");
             SortAnArrayAnFindDuplicate s2 = new SortAnArrayAnFindDuplicate();
             s2.SortFindDuplicateArray();
+
+
+            Console.WriteLine("-------------------------------------");
+            DuplicateCharCount d2= new DuplicateCharCount();
+            d2.CountOfDuplicateChar();
+
         }
     }
     
