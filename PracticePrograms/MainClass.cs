@@ -52,7 +52,7 @@ namespace PracticePrograms
             LargestNumber l= new LargestNumber();
             l.FindLagestNumber();
             Console.WriteLine("-------------------------------------");
-            EvenOddNoInArray e= new EvenOddNoInArray();
+            EvenOddNoInArray e1= new EvenOddNoInArray();
             e.EvenOddNo();
 
             Console.WriteLine("-----------------------------------------");
