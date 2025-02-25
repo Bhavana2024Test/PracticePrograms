@@ -54,6 +54,10 @@ namespace PracticePrograms
             Console.WriteLine("-------------------------------------");
             EvenOddNoInArray e= new EvenOddNoInArray();
             e.EvenOddNo();
+
+            Console.WriteLine("-----------------------------------------");
+            SortAnArrayAnFindDuplicate s2 = new SortAnArrayAnFindDuplicate();
+            s2.SortFindDuplicateArray();
         }
     }
     
