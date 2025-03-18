@@ -64,6 +64,12 @@ namespace PracticePrograms
             DuplicateCharCount d2= new DuplicateCharCount();
             d2.CountOfDuplicateChar();
 
+            Console.WriteLine("-------------------------------------");
+            TwoStringsAreEqualOrNot ts= new TwoStringsAreEqualOrNot();
+            ts.stringEqualOrNot();
+            Console.WriteLine("-------------------------------------");
+            TwoArrayIsEqualOrNot ta= new TwoArrayIsEqualOrNot();
+            ta.twoArrayIsEqualOrNot();
         }
     }
     
