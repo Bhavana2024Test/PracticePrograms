@@ -70,6 +70,10 @@ namespace PracticePrograms
             Console.WriteLine("-------------------------------------");
             TwoArrayIsEqualOrNot ta= new TwoArrayIsEqualOrNot();
             ta.twoArrayIsEqualOrNot();
+            Console.WriteLine("-------------------------------------");
+            NumberIsPalidrome np = new NumberIsPalidrome();
+            np.PalindromeNumber();
+
         }
     }
     
