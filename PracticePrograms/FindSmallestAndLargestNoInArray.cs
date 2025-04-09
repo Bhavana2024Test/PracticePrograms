@@ -10,7 +10,7 @@ namespace PracticePrograms
     {
         public void smallestLargestNumber()
         {
-            int[] a = { 1, 2, 3, 6, 5 };
+            int[] a = { 1, 2, 3, 6, 5 ,100};
             int min = a[0];
             int max = a[0];
             for (int i = 0; i < a.Length; i++)
@@ -24,7 +24,7 @@ namespace PracticePrograms
                     max = a[i];
                 }
             }
-        Console.WriteLine(min + " " + max);
+        Console.WriteLine("Min num is : "+min + " max num is: " + max);
         }
 
     }

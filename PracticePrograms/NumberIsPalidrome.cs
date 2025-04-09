@@ -18,7 +18,6 @@ namespace PracticePrograms
                 int rem = a % 10;
                 rev = rev * 10 + rem;
                 a = a / 10;
-
             }
             if(num==rev)
             {

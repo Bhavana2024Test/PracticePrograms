@@ -33,8 +33,8 @@ namespace PracticePrograms
             //a2.ArraySortAndReverse();
 
            // Console.WriteLine("------------------------------------");
-           // FindSmallestAndLargestNoInArray a3= new FindSmallestAndLargestNoInArray();
-            //a3.smallestLargestNumber();
+            FindSmallestAndLargestNoInArray a3= new FindSmallestAndLargestNoInArray();
+            a3.smallestLargestNumber();
 
             Console.WriteLine("-------------------------------------");
             ReverseNumber r1= new ReverseNumber();
@@ -73,6 +73,20 @@ namespace PracticePrograms
             Console.WriteLine("-------------------------------------");
             NumberIsPalidrome np = new NumberIsPalidrome();
             np.PalindromeNumber();
+            Console.WriteLine("-------------------------------------");
+            CountOfDuplicateNumber c = new CountOfDuplicateNumber();
+            c.duplicateNUmberCount();
+           /* Console.WriteLine("-------------------------------------");
+            lengthofLastWOrdFromString ls= new lengthofLastWOrdFromString();    
+            ls.LastWordLength();
+            Console.WriteLine("-------------------------------------");
+            SecondLastWordLength sl= new SecondLastWordLength();
+            sl.LengthSecondLastWord();*/
+            Console.WriteLine("-------------------------------------");
+
+            TwoStringAnagramOrNot anagramOrNot = new TwoStringAnagramOrNot();
+            anagramOrNot.anagram();
+
 
         }
     }
